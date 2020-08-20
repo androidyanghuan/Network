@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="title"
+            type="java.lang.String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activitys.ImageBrowserActivity">
+
+        <include
+            layout="@layout/public_action_bar_layout"
+            app:title="@{title}"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+            <com.bm.library.PhotoView
+                android:id="@+id/activity_image_browse_pv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:transitionName="@string/transition_movie_img"
+                tools:src="@tools:sample/avatars"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/activity_image_browse_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:layout_gravity="end|bottom"
+                app:srcCompat="@drawable/ic_vector_pic_save"
+                app:backgroundTint="@android:color/black"
+                app:borderWidth="0dp" />
+            <ProgressBar
+                android:id="@+id/activity_image_browse_pb"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_80"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>

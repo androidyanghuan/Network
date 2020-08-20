@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_bnav_home"
+        android:icon="@drawable/main_icon_navigation_home"
+        android:title="@string/main_home_page" />
+    <item
+        android:id="@+id/main_bnav_goods"
+        android:icon="@drawable/main_icon_navigation_goods"
+        android:title="@string/main_goods_page" />
+    <item
+        android:id="@+id/main_bnav_books"
+        android:icon="@drawable/ic_vector_bottom_movie"
+        android:title="@string/main_books_page" />
+    <item
+        android:id="@+id/main_bnav_me"
+        android:icon="@drawable/main_icon_navigation_me"
+        android:title="@string/main_me_page" />
+
+</menu>

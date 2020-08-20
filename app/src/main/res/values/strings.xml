@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">轻云至上</string>
+
+    <string name="please_wait">请稍后...</string>
+    <string name="main_home_page">主页</string>
+    <string name="main_goods_page">福利</string>
+    <string name="main_books_page">干货</string>
+    <string name="main_me_page">我的</string>
+    <string name="network_error">当前网络不可用,请检查网络连接!</string>
+
+    <string name="saved_in_vm">Saved in ViewModel: %s</string>
+    <string name="initial_name">No one</string>
+    <string name="all_str">All</string>
+    <string name="selected_classify">选择分类</string>
+    <string name="app_str">App</string>
+    <string name="android_str">Android</string>
+    <string name="ios_str">iOS</string>
+    <string name="web_str">Flutter</string>
+    <string name="no_more_data">没有更多数据了</string>
+
+    <string name="transition_movie_img">transition_movie_img</string>
+    <string name="save_success">保存图片成功</string>
+    <string name="save_failed">保存图片失败</string>
+    <string name="grant_storage_permission">保存图片失败,请授予应用的存储空间权限</string>
+    <string name="grant_camera_permission">请授予应用的相机权限</string>
+    <string name="setting_str">设置</string>
+    <string name="about_str">关于</string>
+    <string name="statement_info">声明:此项目乃个人学习练手项目,商业用途请联系授权</string>
+    <string name="version_name">V 1.0</string>
+    <string name="main_about_str">关于</string>
+    <string name="information_list">最新资讯集合\n\n功能：\n  · 知乎日报\n  · 新闻头条\n  · 微信精选\n  · 干货整理\n  · 电影资讯\n  · 精选书籍</string>
+    <string name="about_author">关于作者</string>
+    <string name="photograph_str">拍照</string>
+    <string name="from_album">从相册选择</string>
+    <string name="cancel_str">取消</string>
+    <string name="please_select_album">请选择图片</string>
+    <string name="version_v">版本V</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="bannerInfo"
+            type="com.example.classroom.entitys.BannerInfo" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.classroom.views.RoundImageView
+            android:id="@+id/banner_item_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@{bannerInfo.image}"
+            app:left_top_corner_radius="@dimen/dp_15"
+            app:right_top_corner_radius="@dimen/dp_15"
+            app:left_bottom_corner_radius="@dimen/dp_15"
+            app:right_bottom_corner_radius="@dimen/dp_15"
+            app:oval="false"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/banner_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_margin="@dimen/dp_10"
+            android:text="@{bannerInfo.title}"
+            tools:text="@tools:sample/lorem/random"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom" />
+
+    </FrameLayout>
+</layout>

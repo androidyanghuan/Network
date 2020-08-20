@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- grey -->
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="bg_gray">#F1F1F1</color>
+    <color name="colorLine">#EBEBEB</color>
+
+    <!--选择分类按下颜色-->
+    <color name="colorChoosePress">#DDD</color>
+    <color name="colorTitle">#666</color>
+    <color name="colorSubtitle">#999</color>
+    <color name="colorPageBg">#F2F4F5</color>
+    <!--正文文字颜色-->
+    <color name="colorContent">#FF333333</color>
+
+    <color name="fragment_me_switch_icon_bg">#E8E8E8</color>
+
+</resources>
